@@ -147,6 +147,13 @@ font-family: 'Open Sans Condensed', sans-serif;
     .row{
         display: block;
     }
+    .logo_navbar , .nav_lists{
+        display: block;
+    }
+    .nav_lists--items{
+        text-align: center;
+        padding: 0.5rem;
+    }
     .links{
         display: flex;
         flex-direction: column;
@@ -160,11 +167,17 @@ font-family: 'Open Sans Condensed', sans-serif;
         font-size: 1em;
         padding: 1em 
     }
+    .
     .text{
         margin: 0 auto;
         width: 50%;
     }
     .main__text{
-        font-size:30px;
+        font-size:25px;
+        margin-top: 1em;
+    }
+
+    .title h1{
+        font-size: 25px;
     }
 }
