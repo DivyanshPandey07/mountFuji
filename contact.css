@@ -22,7 +22,7 @@ p{
 }
 .contact{
     background: linear-gradient(135deg, var(--primary), var(--secondary)),
-                url('/mt-fuji-801604_1920.jpg');
+                url('./mt-fuji-801604_1920.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
