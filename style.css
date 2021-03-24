@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+/* Css Variables */
+:root{
+    --primary: rgba(117, 127, 154, 0.4);
+    --secondary: rgba(215, 221, 232, 0.4);
+}
+a{
+    text-decoration: none;
+}
+/* Backgrond */
+.main{
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),
+                url('/clay-banks-u27Rrbs9Dwc-unsplash.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+/* Background End */
+
+/* Logo and Navbar */
+.logo_navbar{
+    display: flex;
+    background:  transparent;
+    justify-content: space-between;
+}
+
+/* Logo Start */
+.logo img{
+    transform: scale(0.6);
+    transition: transform 0.5s;
+}
+
+.logo img:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+
+.closeImg{
+    display: none;
+   margin-left: 15px;
+   margin-top: -70px;
+}
+/* Logo End */
+
+
+/* Navbar Starts */
+
+.navbar{
+    padding: 1.2em;
+    display: none;
+}
+
+.nav_lists{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.nav_lists--items{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 40px;
+    list-style: none;
+}
+
+.nav_lists--items a{
+    color:white;
+}
+
+.nav_lists--items:focus,
+.nav_lists--items:hover{
+    border-bottom: 2px solid rgb(245, 245, 182);
+}
+
+/* NavBar Ends */
+
+
+.main__text{
+    color: rgba(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-shadow:5px 3px 20px rgba(19, 19, 19, 0.4);
+    font-size: 3.8em;
+    margin-top: 2.5em;
+    text-align: center;
+}
+.row{
+    padding: 5em 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links{
+    width: 50%;
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    background: white;
+    border: 2px solid whitesmoke;
+    color: black;
+    font-size: 1.2EM;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 900;
+    box-sizing: content-box;
+    padding: 0.8rem;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+    transition: font-size, 0.5s;
+}
+
+.btn:hover,
+.btn:focus{
+    font-size: 1.5EM;
+    color: white;
+    background: rgba(98, 98, 100, 0.5);
+}
+
+.footer{
+    margin-top: -50px;
+    padding: 0.2em;
+    background-color: rgba(0, 0, 0,0.4);
+}
+.title h1{
+text-align: center;
+color: rgba(255, 255, 255, 0.657);
+font-family: 'Open Sans Condensed', sans-serif;
+}

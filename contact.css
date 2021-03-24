@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    margin:  0 auto;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+}
+p{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+:root{
+    --primary : rgba(123, 198, 204,0.6);
+    --secondary : rgba(190, 147, 197,0.3);
+}
+.contact{
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),
+                url('/mt-fuji-801604_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.contact_container{
+    width:35%;
+    padding: 5em 0 ;
+    margin: 0 auto;
+}
+.row{
+    background-color: rgba(106, 90, 205,0.7);
+    border: 20px solid lightskyblue;
+    box-shadow: 10px 10px 15px rgba(59, 59, 59,0.8);
+    display: flex;
+    padding: 3em 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.col{
+    max-width: 100%;
+    padding:1.5em;
+}
+.col input{
+    width:280%;
+    color: black;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid lightskyblue;
+}
+::placeholder{
+    color: white;
+}
+a{
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+   
+}
+a button{
+    padding: 1em 2em;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    background-color:  rgb(87, 73, 177);
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color:violet
+}
